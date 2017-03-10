@@ -16,7 +16,7 @@ var blogSchema = new Schema({
   shares : {type:Number,default:0},
   author : {type:String,default:""},
   createdOn : {type:Date,default:""},
-  updatedOn : {type:Date,deafult:""},
+  updatedOn : {type:Date,deafult:""}
 
 });
 
