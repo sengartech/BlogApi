@@ -8,28 +8,28 @@ This project contains backend business logic for Blog apps.
 
 ## Prerequisites
 
-NodeJs
-NPM
+NodeJs, 
+NPM, 
 MongoDB
 
 ## Running
 
-(Note: these instructions are for Ubuntu Linux based OS. Assuming nodejs, npm and mongodb is already installed).
+Note: these instructions are for Ubuntu Linux based OS. Assuming nodejs, npm and mongodb is already installed.
 
-  running mongodb:
+  Running mongodb:
 ```
     1). Open Terminal and change directory to where mongodb is installed in bin folder.
     2). user@linux: ~/path/to/mongodb/bin $ ./mongod --dbpath ~/path/to/data/db
     3). press enter database server will start.
 ```
-  unzipping and installing dependencies:
+  Unzipping and installing dependencies:
 ```
     1). Unzip the downloaded file.
     2). Open the extracted folder.
     3). Right click somewhere in folder and select Open in Terminal.
     4). Type Command : npm install and press enter. This will install all dependencies shown in package.json file.
 ```
-  running project:
+  Running project:
 ```
     5). Now type either: npm start "or" node app.js both will work.
     6). Open Google Chrome browser and go to apps and open Postman.
@@ -49,4 +49,4 @@ This is first version 0.0.1
 
 ## Authors
 
-First commit by: Rishabh Singh.
+First commit by: Rishabh Singh Sengar.
